@@ -9,9 +9,9 @@ thisdict = {
   "Cumin": "March"
 }
 
-month = thisdict[wish]
 
 if wish in thisdict:
+    month = thisdict[wish]   
     print(f"Yes, {wish} is one a product I can grow for you")
     print(f"You have to grow {wish} in {month}")
 
